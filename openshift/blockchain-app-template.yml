@@ -179,7 +179,7 @@ objects:
           value: ${API_URL}
         from:
           kind: ImageStreamTag
-          name: nodejs:8
+          name: nodejs:12
           namespace: openshift
       type: Source
     triggers:
@@ -297,7 +297,7 @@ objects:
           value: "false"
         from:
           kind: ImageStreamTag
-          name: nodejs:8
+          name: nodejs:12
           namespace: openshift
       type: Source
     triggers:
